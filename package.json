@@ -1,7 +1,7 @@
 {
   "name": "@qest/redux-oidc",
   "displayName": "@qest/redux-oidc",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "description": "A package for managing OpenID Connect authentication in redux apps",
   "main": "dist/redux-oidc.js",
   "types": "./index.d.ts",

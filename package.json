@@ -16,7 +16,7 @@
     "url": "git+https://github.com/qest-cz/redux-oidc.git"
   },
   "bugs": {
-    "url": "https://github.com/qest-cz/redux-oidc/issues",
+    "url": "https://github.com/qest-cz/redux-oidc/issues"
   },
   "keywords": [
     "oidc",

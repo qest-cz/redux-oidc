@@ -7,7 +7,7 @@ steps:
       versionSpec: 12.x
 
   - task: Npm@1
-    displayName: "Use Yarn 1.x"
+    displayName: "Use Npm 1.x"
 
   - script: npm
     displayName: "npm install"

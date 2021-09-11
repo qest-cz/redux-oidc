@@ -1,6 +1,7 @@
 {
-  "name": "redux-oidc",
-  "version": "4.0.0-beta1",
+  "name": "@qest/redux-oidc",
+  "displayName": "@qest/redux-oidc",
+  "version": "5.0.0",
   "description": "A package for managing OpenID Connect authentication in redux apps",
   "main": "dist/redux-oidc.js",
   "types": "./index.d.ts",
@@ -12,11 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxmantz/redux-oidc.git"
+    "url": "git+https://github.com/qest-cz/redux-oidc.git"
   },
   "bugs": {
-    "url": "https://github.com/maxmantz/redux-oidc/issues",
-    "email": "maximilian.mantz@yahoo.de"
+    "url": "https://github.com/qest-cz/redux-oidc/issues",
   },
   "keywords": [
     "oidc",
@@ -59,9 +59,9 @@
     "webpack-node-externals": "^1.5.4"
   },
   "peerDependencies": {
-    "react": ">=16.8.4",
+    "oidc-client": ">=1.6.1",
     "prop-types": ">=15.5.8",
-    "oidc-client": ">=1.6.1"
+    "react": ">=16.8.4"
   },
   "browserify": {
     "transform": [

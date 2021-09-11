@@ -12,6 +12,9 @@ steps:
   - script: npm install
     displayName: "npm install"
 
+  - script: npm install react@16.8.4 react-addons-test-utils@15.6.2 immutable babel-polyfill oidc-client
+    displayName: "install dependecies"
+
   - script: "npm run build"
     displayName: "npm run build"
 

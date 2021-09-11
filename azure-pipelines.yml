@@ -6,7 +6,7 @@ steps:
     inputs:
       versionSpec: 12.x
 
-  - task: geeklearningio.gl-vsts-tasks-yarn.yarn-installer-task.YarnInstaller@3
+  - task: Npm@1
     displayName: "Use Yarn 1.x"
 
   - script: npm

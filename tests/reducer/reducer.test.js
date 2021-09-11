@@ -27,7 +27,7 @@ describe('reducer', () => {
     };
 
     const expectedResult = {
-      user: null,
+      user: { some: 'user' },
       isLoadingUser: false
     };
 
@@ -41,7 +41,7 @@ describe('reducer', () => {
     };
 
     const expectedResult = {
-      user: null,
+      user: { some: 'user' },
       isLoadingUser: false
     };
 

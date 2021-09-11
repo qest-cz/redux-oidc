@@ -15,9 +15,9 @@ const initialState = {
 export default function reducer(state = initialState, action) {
   switch (action.type) {
     case USER_EXPIRED:
-        return Object.assign({}, { ...state }, { user: null, isLoadingUser: false });
+        return Object.assign({}, { ...state }, { isLoadingUser: false });
     case SILENT_RENEW_ERROR:
-        return Object.assign({}, { ...state }, { user: null, isLoadingUser: false });
+        return Object.assign({}, { ...state }, { isLoadingUser: false });
     case SESSION_TERMINATED:
     case USER_SIGNED_OUT:
       return Object.assign({}, { ...state }, { user: null, isLoadingUser: false });
